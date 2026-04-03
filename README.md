@@ -46,33 +46,34 @@ After running the server, visit:
 ---
 
 ## 📁 Project Structure
+```
 finance-system/
 ├── app/
-│   ├── main.py
-│   ├── database.py
+│   ├── main.py              
+│   ├── database.py          
 │   ├── core/
-│   │   ├── config.py
-│   │   ├── security.py
-│   │   └── dependencies.py
+│   │   ├── config.py        
+│   │   ├── security.py      
+│   │   └── dependencies.py  
 │   ├── models/
-│   │   ├── user.py
-│   │   └── transaction.py
+│   │   ├── user.py          
+│   │   └── transaction.py   
 │   ├── schemas/
-│   │   ├── user.py
-│   │   └── transaction.py
+│   │   ├── user.py          
+│   │   └── transaction.py   
 │   ├── services/
-│   │   ├── auth_service.py
-│   │   ├── transaction_service.py
-│   │   └── analytics_service.py
+│   │   ├── auth_service.py          
+│   │   ├── transaction_service.py   
+│   │   └── analytics_service.py     
 │   └── routers/
-│       ├── auth.py
-│       ├── users.py
-│       ├── transactions.py
-│       └── analytics.py
-├── seed.py
-├── requirements.txt
-└── README.md
----
+│       ├── auth.py          
+│       ├── users.py         
+│       ├── transactions.py  
+│       └── analytics.py     
+├── seed.py                  
+├── requirements.txt         
+└── README.md               
+```
 
 ## ⚙️ Setup Instructions
 
